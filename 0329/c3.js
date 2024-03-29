@@ -1,6 +1,6 @@
 "use strict";
 
-let R = null;
+let R1 = null;
 
 let chart2 = null;
 
@@ -14,7 +14,7 @@ async function showc()
     //fetch()
     let url = `https://juxinglong.github.io/static/HW/hw6/MIS3033.json`;
     let r = await fetch(url);
-    let rj = await r.json
+    let rj = await r.json();
 
     let c2 = document.querySelector("#c2");
     let opts =
@@ -44,7 +44,7 @@ async function showc()
     };
     anime(opts);
 
-    R = rj;
+    R1 = rj;
     console.log(rj);
 
 }
