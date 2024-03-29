@@ -4,7 +4,7 @@ let b1 = document.querySelector("#b1");
 let chart1 = null; 
 async function loadd() {
 
-    let url = 'https://jiuxinglong.github.io/static/data/states.json';
+    let url = 'https://juxinglong.github.io/static/data/states.json';
 
     let r = await fetch(url); // async
     let rj = await r.json(); // async
